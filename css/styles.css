@@ -121,17 +121,21 @@ h3 {
   display: flex;
 }
 
-.list-contact {
-  margin-right: 30px;
+.link-contact {
+  text-decoration: none;
   display: flex;
   align-items: center;
+}
+
+.list-contact {
+  margin-right: 30px;
 }
 
 .list-contact:last-child {
   margin-right: 0px;
 }
 
-.contact-links-top .link {
+.contact-links-top .link-contact {
   color: var(--main-description-color);
   font-weight: 500;
   font-size: 14px;
@@ -139,17 +143,15 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.contact-links-top .link:hover,
-.contact-links-top .link:focus {
+.contact-links-top .link-contact:hover,
+.contact-links-top .link-contact:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .icons-contact {
   margin-right: 10px;
-}
-
-.icons-contact::after {
-  color: var(--accent-color);
+  fill: red;
 }
 
 /* Main Header */
