@@ -143,15 +143,19 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.contact-links-top .link-contact:hover,
-.contact-links-top .link-contact:focus {
+.link-contact:hover .text,
+.link-contact:focus .text {
+  color: var(--accent-color);
+}
+
+.link-contact:hover .svg,
+.link-contact:focus .svg {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
 .icons-contact {
   margin-right: 10px;
-  fill: red;
 }
 
 /* Main Header */
