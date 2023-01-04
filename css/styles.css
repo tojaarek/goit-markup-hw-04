@@ -51,6 +51,7 @@ h3 {
 
 .link {
   text-decoration: none;
+  align-items: center;
 }
 
 .second-headline {
@@ -146,7 +147,10 @@ h3 {
 
 .icons-contact {
   margin-right: 10px;
-  align-items: center;
+}
+
+.icons-contact::after {
+  color: var(--accent-color);
 }
 
 /* Main Header */
