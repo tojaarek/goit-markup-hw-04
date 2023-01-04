@@ -53,6 +53,15 @@ h3 {
   text-decoration: none;
 }
 
+.second-headline {
+  color: var(--main-text-color);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
 /* Header */
 
 .box1 {
@@ -88,7 +97,7 @@ h3 {
 }
 
 .navigation-links:last-child {
-  margin-right: 371px;
+  margin-right: 345px;
 }
 
 .list-navigation {
@@ -113,7 +122,9 @@ h3 {
 }
 
 .list-contact {
-  margin-right: 50px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .list-contact:last-child {
@@ -131,6 +142,11 @@ h3 {
 .contact-links-top .link:hover,
 .contact-links-top .link:focus {
   color: var(--accent-color);
+}
+
+.icons-contact {
+  margin-right: 10px;
+  align-items: center;
 }
 
 /* Main Header */
@@ -192,13 +208,45 @@ h3 {
   padding-right: 30px;
 }
 
-.second-headline {
-  color: var(--main-text-color);
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
+/* What we do */
+
+.what-we-do-box {
+  display: flex;
+  justify-content: center;
+}
+
+.item-what-we-do {
+  margin-right: 30px;
+}
+
+.what-we-do-box:last-child {
+  margin-right: 0px;
+}
+
+.section-what-we-do {
+  margin-bottom: 94px;
+}
+
+/* Our team */
+
+.section-background-2 {
+  background-color: var(--portfolio-filter);
+}
+
+.list-team {
+  display: flex;
+}
+
+.list-team:last-child {
+  margin-right: 0px;
+}
+
+.item-team {
+  margin-right: 30px;
+  background-color: var(--white-text);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .member-name {
@@ -221,6 +269,14 @@ h3 {
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .city-street {
@@ -250,6 +306,9 @@ h3 {
 .contact-links-bottom .link:focus {
   color: var(--accent-color);
 }
+
+/* Portfolio */
+
 .project-filter {
   color: var(--main-text-color);
   font-family: "Roboto";
@@ -286,49 +345,6 @@ h3 {
   padding-top: 4px;
   padding-left: 24px;
   padding-bottom: 20px;
-}
-
-.what-we-do-box {
-  display: flex;
-  justify-content: center;
-}
-
-.item-what-we-do {
-  margin-right: 30px;
-}
-
-.what-we-do-box:last-child {
-  margin-right: 0px;
-}
-
-.list-team {
-  display: flex;
-}
-
-.list-team:last-child {
-  margin-right: 0px;
-}
-
-.item-team {
-  margin-right: 30px;
-  background-color: var(--white-text);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.section-background-2 {
-  background-color: var(--portfolio-filter);
-}
-
-.section-what-we-do {
-  margin-bottom: 94px;
-}
-
-.footer {
-  background-color: var(--footer-background);
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .header-line {
