@@ -394,6 +394,32 @@ h3 {
   color: var(--accent-color);
 }
 
+.social-media-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 206px;
+  height: 80px;
+}
+
+.social-media-title {
+  color: var(--white-text);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.list-social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icon {
+  margin-right: 20px;
+}
+
 /* Portfolio */
 
 .project-filter {
