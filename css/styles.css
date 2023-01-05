@@ -298,11 +298,11 @@ h3 {
 .team-icon-box {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
 
 .team-icon {
   margin-right: 34px;
-  margin-bottom: 34px;
 }
 
 .team-icon-last {
