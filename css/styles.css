@@ -179,6 +179,7 @@ h3 {
   line-height: 1.87;
   letter-spacing: 0.06em;
   background: var(--accent-color);
+  border: 0px solid;
   border-radius: 4px;
   cursor: pointer;
   padding: 10px 41px 10px 41px;
@@ -455,6 +456,7 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: var(--portfolio-filter);
+  border: 0px solid;
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
 }
