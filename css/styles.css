@@ -189,7 +189,7 @@ h3 {
       rgba(47, 48, 58, 0.4) 0%,
       rgba(47, 48, 58, 0.4) 50%
     ),
-    url(./images/background-images/baner-background.jpg);
+    url(/images/background-images/baner-background.jpg);
 }
 
 .box3 {
@@ -439,7 +439,7 @@ h3 {
 
 .social-media-icon-border:hover,
 .social-media-icon-border:focus {
-  background-color: var(--a);
+  background-color: var(--accent-color);
 }
 
 /* Portfolio */
