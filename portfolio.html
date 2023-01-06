@@ -46,20 +46,27 @@
 
           <ul class="contact-links-top">
             <li class="list-contact">
-              <a class="link" href="mailto:info@devstudio.com"
+              <a class="link-contact" href="mailto:info@devstudio.com">
+                <svg class="icons-contact" width="16px" height="12px">
+                  <use href="./images/icons.svg#icon-envelope"></use></svg
                 >info@devstudio.com</a
               >
             </li>
             <li class="list-contact">
-              <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+              <a class="link-contact" href="tel:+48111111111"
+                ><svg class="icons-contact" width="10px" height="16px">
+                  <use href="./images/icons.svg#icon-phone"></use></svg
+                >+48 111 111 111</a
+              >
             </li>
           </ul>
         </div>
       </div>
       <div class="header-line"></div>
     </header>
-    <!-- Przyciski filtrów -->
+
     <main>
+      <!-- Przyciski filtrów -->
       <div class="container">
         <section class="section">
           <ul class="list-project-filter">
@@ -211,18 +218,58 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logo-white" href="./index.html"
-          ><span class="logo-web">Web</span>Studio</a
-        >
-        <address>
-          <p class="city-street">m. Warszawa, Aleje Jerozolimskie 21</p>
-        </address>
-        <ul class="contact-links-bottom">
-          <li class="item-contact-bottom">
-            <a class="link" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
+        <div class="footer-box">
+          <div>
+            <a class="logo-white" href="./index.html"
+              ><span class="logo-web">Web</span>Studio</a
+            >
+            <address>
+              <p class="city-street">m. Warszawa, Aleje Jerozolimskie 21</p>
+            </address>
+            <ul class="contact-links-bottom">
+              <li class="item-contact-bottom">
+                <a class="link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social-media-box">
+            <p class="social-media-title">Dołącz do nas</p>
+            <ul class="list-social-media">
+              <li class="social-media-icon">
+                <a class="social-media-icon-border" href="#">
+                  <svg class="list-icons" width="20x" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+
+              <li class="social-media-icon">
+                <a class="social-media-icon-border" href="#">
+                  <svg class="list-icons" width="20x" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+
+              <li class="social-media-icon">
+                <a class="social-media-icon-border" href="#">
+                  <svg class="list-icons" width="20x" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+
+              <li class="social-media-icon">
+                <a class="social-media-icon-border" href="#">
+                  <svg class="list-icons" width="20x" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

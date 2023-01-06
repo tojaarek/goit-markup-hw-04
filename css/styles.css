@@ -7,6 +7,7 @@
   --bottom-contact-color: rgba(255, 255, 255, 0.6);
   --portfolio-filter: #f5f4fa;
   --footer-background: #2f303a;
+  --footer-socialmedia-icon: rgba(255, 255, 255, 0.1);
 }
 
 /* Global */
@@ -316,7 +317,6 @@ h3 {
   align-items: center;
   width: 44px;
   height: 44px;
-  border: 1px solid var(--white-text);
   border-radius: 50px;
 }
 
@@ -399,6 +399,8 @@ h3 {
   flex-wrap: wrap;
   width: 206px;
   height: 80px;
+  margin-left: 70px;
+  padding-top: 12px;
 }
 
 .social-media-title {
@@ -418,6 +420,26 @@ h3 {
 
 .social-media-icon {
   margin-right: 20px;
+  --color3: var(--white-text);
+}
+
+.footer-box {
+  display: flex;
+}
+
+.social-media-icon-border {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--footer-socialmedia-icon);
+  border-radius: 50px;
+}
+
+.social-media-icon-border:hover,
+.social-media-icon-border:focus {
+  background-color: var(--accent-color);
 }
 
 /* Portfolio */
