@@ -34,13 +34,14 @@ Project
 «A10» The code is in line with the guide.
 
 Markup
+
 «B1» Vector graphics in the svg format are used for all icons.
 
 «B2» SVG icons are properly exported. When exporting, the "group" is selected, not the vector itself.
 
-«B3» All icons from the SVG sprite are added to HTML using the <svg> and <use> tags.
+«B3» All icons from the SVG sprite are added to HTML using the < svg > and < use > tags.
 
-«B4» Icon sizes are in line with the layout and set on the <svg> element in the HTML file.
+«B4» Icon sizes are in line with the layout and set on the < svg > element in the HTML file.
 
 «B5» In the Contacts box in the header, the envelope and phone icons are added.
 
